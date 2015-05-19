@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>64CD3034-BE37-4956-8972-93629E8327BE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>dafan</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1321C14B6EB86BF206CC62AA89FB43D14BF407CC</key>
+		<string>git.oschina.net:hsh/dafan.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>dafan.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1321C14B6EB86BF206CC62AA89FB43D14BF407CC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>git.oschina.net:hsh/dafan.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1321C14B6EB86BF206CC62AA89FB43D14BF407CC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1321C14B6EB86BF206CC62AA89FB43D14BF407CC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>dafan</string>
+		</dict>
+	</array>
+</dict>
+</plist>

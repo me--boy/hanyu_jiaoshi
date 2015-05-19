@@ -1,0 +1,38 @@
+﻿//
+//  PartnerConfig.h
+//  AlipaySdkDemo
+//
+//  Created by ChaoGanYing on 13-5-3.
+//  Copyright (c) 2013年 RenFei. All rights reserved.
+//
+//  提示：如何获取安全校验码和合作身份者id
+//  1.用您的签约支付宝账号登录支付宝网站(www.alipay.com)
+//  2.点击“商家服务”(https://b.alipay.com/order/myorder.htm)
+//  3.点击“查询合作者身份(pid)”、“查询安全校验码(key)”
+//
+
+#ifndef MQPDemo_PartnerConfig_h
+#define MQPDemo_PartnerConfig_h
+
+#define kAliPaymentSucceedCode 9000
+
+//合作身份者id，以2088开头的16位纯数字
+#define PartnerID @"2088511354317974"
+//#define PartnerID @"2088411518679594"
+//收款支付宝账号
+#define SellerID  @"5208176@qq.com"
+
+//安全校验码（MD5）密钥，以数字和字母组成的32位字符
+//#define MD5_KEY @"fhefm3jpi54ubnkdxjhdiy572prx9fau"
+#define MD5_KEY @"jnbjcqwe33t95y0vd3hx17uryyamlvxj"
+//商户私钥，自助生成
+#define PartnerPrivKey @"MIICeQIBADANBgkqhkiG9w0BAQEFAASCAmMwggJfAgEAAoGBAM8DIMJdLgQvs2g5b7VmkIR5MSMF525jEgSin6DxdTKPmXxkhx+UvRwu7YAONX4IAuauaT2v/GqyeP+/vCKGdKxoyNUHZhiWhuFU7tHEniePhw3jwfqfGTs49dVEkPOpYTXHvzKuIrN8zw5cP0e5R+MAhOFJeqzd31C0SGAJOiAxAgMBAAECgYEArO01/mcMO58FRXlFYclty9vZOiKCc2n68ThQFIffmP7v/kOTxMPhPZvN9fzonoFeuwjTDR7nwtGX1jx6knSzHJhToVQfu+zR8GizASZbqWqEV6Y8CY6iGaiG6Zu+xVQ4VGRFwOiBy731kqdH6BXjYNvMwH0WxdbgNJeYPrZP1oECQQD+msPFsBMkLhHQEztRP62XTZcxcHqlof++KkYM3cidA3REYwbVY80sjIbdFBRbyTtgJLpccDa50MOpdyqDlmA5AkEA0CWWJPdr6sIXxY9BTRYcCzhXMgQQYUJMDInXH8suBuy/2t5gqGQgEKO3H7nhy6rI4xPwX/SvXn1b+MXTbsVPuQJBANOCZpjYCU7JJusgzupUaDWFs9DSjFEFH5wvKjqOFJa7w978FTU4z73ukCsg/zixF65rVJZuckgzchhacusWBaECQQDEh2ivuKm9e8ukLnGyzjhmY6j4wZuRqV5SzGdBTr9DrJAtoKBU/kzESUAjhYfrnHKW7YGdqFNY/TY0uty6jzSJAkEAviWgWoLl2EjkpdH6Yc9ZFpx2Cy2bxCxhRBRhINZOHNRgKUitxFNiYgVNCJWaOJRklNWYGBMEc4sB4Z+IHDJFGA==" //from my server
+
+//#define PartnerPrivKey @"MIICXwIBAAKBgQDPAyDCXS4EL7NoOW+1ZpCEeTEjBeduYxIEop+g8XUyj5l8ZIcflL0cLu2ADjV+CALmrmk9r/xqsnj/v7wihnSsaMjVB2YYlobhVO7RxJ4nj4cN48H6nxk7OPXVRJDzqWE1x78yriKzfM8OXD9HuUfjAIThSXqs3d9QtEhgCTogMQIDAQABAoGBAKztNf5nDDufBUV5RWHJbcvb2ToignNp+vE4UBSH35j+7/5Dk8TD4T2bzfX86J6BXrsI0w0e58LRl9Y8epJ0sxyYU6FUH7vs0fBoswEmW6lqhFemPAmOohmohumbvsVUOFRkRcDogcu99ZKnR+gV42DbzMB9FsXW4DSXmD62T9aBAkEA/prDxbATJC4R0BM7UT+tl02XMXB6paH/vipGDN3InQN0RGMG1WPNLIyG3RQUW8k7YCS6XHA2udDDqXcqg5ZgOQJBANAlliT3a+rCF8WPQU0WHAs4VzIEEGFCTAyJ1x/LLgbsv9reYKhkIBCjtx+54cuqyOMT8F/0r159W/jF027FT7kCQQDTgmaY2AlOySbrIM7qVGg1hbPQ0oxRBR+cLyo6jhSWu8Pe/BU1OM+97pArIP84sReua1SWbnJIM3IYWnLrFgWhAkEAxIdor7ipvXvLpC5xss44ZmOo+MGbkaleUsxnQU6/Q6yQLaCgVP5MxElAI4WH65xylu2BnahTWP02NLrcuo80iQJBAL4loFqC5dhI5KXR+mHPWRacdgstm8QsYUQUYSDWThzUYClIrcRTYmIFTQiVmjiUZJTVmBgTBHOLAeGfiBwyRRg="
+
+//支付宝公钥
+//#define AlipayPubKey   @"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnxj/9qwVfgoUh/y2W89L6BkRAFljhNhgPdyPuBV64bfQNN1PjbCzkIM6qRdKBoLPXmKKMiFYnkd6rAoprih3/PrQEB/VsW8OoM8fxn67UDYuyBTqA23MML9q1+ilIZwBC2AQ2UBVOrFXfFl75p6/B5KsiNG9zpgmLCUYuLkxpLQIDAQAB"
+
+#define AlipayPubKey    @"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPAyDCXS4EL7NoOW+1ZpCEeTEjBeduYxIEop+g8XUyj5l8ZIcflL0cLu2ADjV+CALmrmk9r/xqsnj/v7wihnSsaMjVB2YYlobhVO7RxJ4nj4cN48H6nxk7OPXVRJDzqWE1x78yriKzfM8OXD9HuUfjAIThSXqs3d9QtEhgCTogMQIDAQAB"
+
+#endif

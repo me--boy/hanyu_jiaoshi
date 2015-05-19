@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  dafan
+
+  Created by iMac on 14-8-13.
+  Copyright (c) 2014年 com. All rights reserved.
+*/
+
+//"Courses & Teachers" = "Courses & Teachers";
+//"Enter classroom" = "Enter the classroom";
+//"Joined people count" = "%d Joinned";
+//"Subject" = "Subject";
+//"Classroom active" = "Classroom is active";
+
+"Courses & Teachers" = "我的课表";
+"Enter classroom" = "进入课堂";
+"Joined people count" = "%d 人学习过";
+"Subject" = "主题";
+"Classroom active" = "当前有课";
+
+"Pull down to refresh..." = "Pull down to refresh...";
+"Release to refresh..." = "Release to refresh...";
+"Loading..." = "Loading...";
+
+"Last Updated"= "Last Updated";
